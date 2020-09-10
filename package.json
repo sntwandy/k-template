@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --development",
-    "build": "webpack build",
+    "build": "webpack",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Wandy Santana <sntwandy@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.2.0"
