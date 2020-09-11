@@ -4,7 +4,14 @@ import React from "react";
 import { CarouselItem } from "../CarouselItem";
 
 // Styles
-import { CarouselContainer, ItemsWrapper, Item, Anchor } from "./styles";
+import {
+  CarouselContainer,
+  ItemsWrapper,
+  Item,
+  Anchor,
+  Li,
+  Ol,
+} from "./styles";
 
 export const Carousel = () => {
   return (
@@ -13,15 +20,15 @@ export const Carousel = () => {
       className="carousel slide"
       data-ride="carousel"
     >
-      <ol className="carousel-indicators">
-        <li
+      <Ol className="carousel-indicators">
+        <Li
           data-target="#carouselExampleCaptions"
           data-slide-to="0"
           className="active"
-        ></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
+        ></Li>
+        <Li data-target="#carouselExampleCaptions" data-slide-to="1"></Li>
+        <Li data-target="#carouselExampleCaptions" data-slide-to="2"></Li>
+      </Ol>
       <ItemsWrapper className="carousel-inner">
         <Item className="carousel-item active">
           <CarouselItem paragraph="Lorem ipsum dolor sit amet, consectetur adipsicing elit, sed do eiusmod tempor 1" />
@@ -38,19 +45,13 @@ export const Carousel = () => {
         href="#carouselExampleCaptions"
         role="button"
         data-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="sr-only">Previous</span>
-      </Anchor>
+      ></Anchor>
       <Anchor
         className="carousel-control-next"
         href="#carouselExampleCaptions"
         role="button"
         data-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="sr-only">Next</span>
-      </Anchor>
+      ></Anchor>
     </CarouselContainer>
   );
 };

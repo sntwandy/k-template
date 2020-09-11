@@ -19,3 +19,15 @@ export const Anchor = styled.a`
   align-items: flex-end;
   margin-bottom: 30px;
 `;
+
+export const Li = styled.li`
+  background-color: #6e6e6e !important;
+  width: 100px !important;
+  height: 10px !important;
+  border-radius: 10px !important;
+  border: none !important;
+`;
+
+export const Ol = styled.ol`
+  justify-content: flex-start;
+`;
