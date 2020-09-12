@@ -1,8 +1,8 @@
 import React from "react";
 
 // Components
-import { Header } from "./components/Header";
-import { Carousel } from "./components/Carousel";
+import { Main } from "./components/Main";
+import { Services } from "./components/Services";
 
 // Global styles
 import { GlobalStyles } from "./styles/GlobalStyles";
@@ -11,8 +11,8 @@ export const App = () => {
   return (
     <>
       <GlobalStyles />
-      <Header />
-      <Carousel />
+      <Main />
+      <Services />
     </>
   );
 };

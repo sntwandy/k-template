@@ -14,6 +14,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: #d8d8d8;
     font-family: sans-serif;
     font-size: 16px;
+    overflow-x: hidden;
   }
 
   *, *:before, *:after {
