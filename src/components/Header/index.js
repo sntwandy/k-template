@@ -1,7 +1,6 @@
 import React from "react";
 
 // Assets
-import Logo from "../../assets/k-logo.png";
 import { BurguerMenu } from "../BurguerMenu";
 
 // Styled
@@ -11,7 +10,10 @@ export const Header = () => {
   return (
     <Nav>
       <ImgWrapper>
-        <Img src={Logo} alt="Kemus Logo" />
+        <Img
+          src="https://res.cloudinary.com/dh9cghj6y/image/upload/v1599885654/ewgxrvnpcso5aytebf0k.png"
+          alt="Kemus Logo"
+        />
       </ImgWrapper>
       <List>
         <BurguerMenu />

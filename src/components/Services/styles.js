@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
+  width: 100vw;
+  height: 100vh;
+`;
+
+export const DivWrapper = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
   width: 100vw;
-  height: 100vh;
+  height: 60%;
   @media screen and (max-width: 800px) {
     flex-direction: column;
     justify-content: end;
@@ -15,7 +20,7 @@ export const Section = styled.section`
 export const ContentTitle = styled.div`
   margin-top: 80px;
   width: 40%;
-  height: 50%;
+  height: 80%;
   background-image: url("https://res.cloudinary.com/dh9cghj6y/image/upload/v1599882099/obxfl31ckvquv8csjlnb.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -25,6 +30,7 @@ export const ContentTitle = styled.div`
     height: auto;
     margin-bottom: 25px;
     width: 100%;
+    margin-top: 20px;
   }
 `;
 
@@ -32,7 +38,7 @@ export const ContentCards = styled.div`
   display: flex;
   align-items: center;
   width: 60%;
-  height: 50%;
+  height: 100%;
   margin-left: 15px;
   @media screen and (max-width: 800px) {
     height: auto;

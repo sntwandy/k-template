@@ -1,8 +1,5 @@
 import React from "react";
 
-// Assets
-import Image from "../../assets/Carousel-Img.png";
-
 // Styles
 import {
   ItemWrapper,
@@ -23,7 +20,10 @@ export const CarouselItem = ({ paragraph }) => {
         <Span>Conoce nuestros servicios</Span>
       </Content>
       <ImgWrapper>
-        <Img src={Image} alt="Nothing here" />
+        <Img
+          src="https://res.cloudinary.com/dh9cghj6y/image/upload/v1599885628/gzhbnqyrrxnggkfo1q5d.png"
+          alt="Nothing here"
+        />
       </ImgWrapper>
     </ItemWrapper>
   );

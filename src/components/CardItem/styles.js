@@ -1,34 +1,38 @@
 import styled from "styled-components";
 
-export const Button = styled.button`
-  width: 250px;
-  border: none;
-  outline: none;
-  background-color: #282828;
-  border-radius: 5px;
-  height: 50px;
-  color: #fff;
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+export const CardWrapper = styled.div`
+  width: 400px;
+  background-color: #fff;
+  height: 250px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.2);
 `;
 
-export const Title = styled.h3`
-  font-size: 3em;
-  font-weight: 700;
-  text-transform: uppercase;
-  @media screen and (max-width: 500px) {
-    font-size: 2em;
-  }
+export const Circle = styled.div`
+  width: 200px;
+  height: 200px;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
 `;
 
-export const Paragraph = styled.p`
+export const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 350px;
+  position: absolute;
+`;
+
+export const Title = styled.span`
   font-size: 1.5em;
-  width: 80%;
-  margin-top: 10px;
-  margin-bottom: 15px;
-`;
-
-export const List = styled.ul`
-  font-size: 1.3em;
+  font-weight: 700;
+  margin: 10px;
+  text-transform: uppercase;
 `;
