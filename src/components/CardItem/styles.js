@@ -9,6 +9,10 @@ export const CardWrapper = styled.div`
   display: flex;
   align-items: flex-end;
   box-shadow: 5px 5px 14px rgba(0, 0, 0, 0.2);
+  @media screen and (max-width: 550px) {
+    width: 300px;
+    height: 230px;
+  }
 `;
 
 export const Circle = styled.div`
@@ -19,6 +23,10 @@ export const Circle = styled.div`
   position: absolute;
   top: 0;
   right: 0;
+  @media screen and (max-width: 550px) {
+    width: 130px;
+    height: 130px;
+  }
 `;
 
 export const Container = styled.div`
@@ -28,6 +36,10 @@ export const Container = styled.div`
   width: 550px;
   height: 350px;
   position: absolute;
+  @media screen and (max-width: 550px) {
+    width: 350px;
+    height: 350px;
+  }
 `;
 
 export const Title = styled.span`
