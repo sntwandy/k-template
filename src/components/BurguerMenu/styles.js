@@ -7,3 +7,18 @@ export const Svg = styled.svg`
     display: none;
   }
 `;
+
+export const BtnLink = styled.a`
+  background-color: #eee;
+  border: none;
+  color: transparent;
+  &:hover {
+    color: transparent;
+  }
+`;
+
+export const DivDropDown = styled.div`
+  top: 10px;
+  left: -190px;
+  font-size: 1.2em;
+`;

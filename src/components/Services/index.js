@@ -15,16 +15,18 @@ import {
 
 export const Services = () => {
   return (
-    <Section>
-      <DivWrapper>
-        <ContentTitle>
-          <Title>Services</Title>
-        </ContentTitle>
-        <ContentCards>
-          <SlidesServ />
-        </ContentCards>
-      </DivWrapper>
-      <Cards />
-    </Section>
+    <>
+      <Section>
+        <DivWrapper>
+          <ContentTitle>
+            <Title>Services</Title>
+          </ContentTitle>
+          <ContentCards>
+            <SlidesServ />
+          </ContentCards>
+        </DivWrapper>
+        <Cards />
+      </Section>
+    </>
   );
 };

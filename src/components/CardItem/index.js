@@ -1,15 +1,15 @@
 import React from "react";
 
 // Styles
-import { CardWrapper, Container, Circle, Title } from "./styles";
+import { Wrapper, Title, TitleWrapper } from "./styles";
 
-export const CardItem = ({ title }) => {
+export const CardItem = ({ title1, title2 }) => {
   return (
-    <Container>
-      <CardWrapper>
-        <Title>{title}</Title>
-      </CardWrapper>
-      <Circle />
-    </Container>
+    <Wrapper>
+      <TitleWrapper>
+        <Title>{title1}</Title>
+        <Title>{title2}</Title>
+      </TitleWrapper>
+    </Wrapper>
   );
 };
