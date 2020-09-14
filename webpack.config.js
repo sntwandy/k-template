@@ -1,5 +1,4 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const PurgecssPlugin = require("purgecss-webpack-plugin");
 
 module.exports = {
   output: {
@@ -33,8 +32,5 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "public/index.html",
     }),
-    // new PurgecssPlugin({
-    //   paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
-    // }),
   ],
 };
