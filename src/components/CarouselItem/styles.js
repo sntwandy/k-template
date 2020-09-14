@@ -32,6 +32,9 @@ export const Pharagraph = styled.p`
       font-size: 2.5em;
     }
   }
+  @media screen and (max-width: 600px) {
+    font-size: 2em;
+  }
 `;
 
 export const Button = styled.button`

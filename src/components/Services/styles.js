@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const Section = styled.section`
   width: 100vw;
   height: 100vh;
+  @media screen and (max-width: 800px) {
+    height: auto;
+  }
 `;
 
 export const DivWrapper = styled.div`
@@ -51,4 +54,7 @@ export const Title = styled.h2`
   font-size: 3.2em;
   font-weight: 900;
   margin-left: 20px;
+  @media screen and (max-width: 500px) {
+    font-size: 2em;
+  }
 `;

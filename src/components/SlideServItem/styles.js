@@ -18,7 +18,7 @@ export const Title = styled.h3`
   font-weight: 700;
   text-transform: uppercase;
   @media screen and (max-width: 500px) {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 `;
 
@@ -27,8 +27,14 @@ export const Paragraph = styled.p`
   width: 80%;
   margin-top: 10px;
   margin-bottom: 15px;
+  @media screen and (max-width: 500px) {
+    font-size: 1em;
+  }
 `;
 
 export const List = styled.ul`
   font-size: 1.3em;
+  @media screen and (max-width: 500px) {
+    font-size: 1.2em;
+  }
 `;

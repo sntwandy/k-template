@@ -19,6 +19,6 @@ export const BtnLink = styled.a`
 
 export const DivDropDown = styled.div`
   top: 10px;
-  left: -190px;
+  left: -200px;
   font-size: 1.2em;
 `;
